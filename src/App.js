@@ -369,12 +369,12 @@ return (
             About Wordle Solver
           </h2>
           <p style={{ marginBottom: '1rem' }}>
-            Built by Will Guanci. 🎓 Graduated early from CU Boulder, earned AMGA SPI certification, and developed this Wordle Solver using entropy-based scoring and React.
+            Built by Will Guanci. B.S. of Information Science from CU Boulder, and developed this Wordle Solver using entropy-based scoring and React.
           </p>
           <p style={{ marginBottom: '1rem' }}>
             Open source on{' '}
             <a
-              href="https://github.com/your-repo"  // Replace with your GitHub repo!
+              href="https://github.com/WillGuanci/wordle-frontend"  // Replace with your GitHub repo!
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: '#4fa3ff' }}
