@@ -95,7 +95,7 @@ const handleSubmit = async (e) => {
   }
 
   try {
-    const response = await axios.post('http://localhost:5000/filter', {
+    const response = await axios.post('https://wordle-backend-ozqd.onrender.com', {
       guess,
       feedback,
     });
@@ -123,7 +123,7 @@ const handleSubmit = async (e) => {
 
   const handleReset = async () => {
     try {
-      await axios.post('http://localhost:5000/reset');
+      await axios.post('https://wordle-backend-ozqd.onrender.com');
       setRemaining([]);
       setHistory([]);
 
